@@ -1,0 +1,25 @@
+body {
+  background-color: #909090;
+}
+#Header a:hover
+{
+  color: aquamarine;
+}
+
+#bg-img {
+background-image: url('../image/back.jpg');
+background-size: 100%;
+background-repeat: no-repeat;
+min-height: 500px;
+}
+
+#about
+{
+  margin-top: -200px;
+}
+
+#about .fa
+{
+  color:#FFF
+
+}
