@@ -1,15 +1,20 @@
 body {
   background-color: #fff;
-}
+} 
 
 h3 {
   font-family: 'Sacramento', cursive;
   font-size:50px;
-}
+}/*font-family and font-size was used with Google Fonts*/
 #Header a:hover
 {
   color: aquamarine;
 }
+#Header a:active
+{
+ background-color: pink;
+} /*if the link is active, it will show in pink*/
+
 #Header a {
   columns: 8a8a8a;
   text-decoration: none;
@@ -20,12 +25,13 @@ background-image: url('../image/back.jpg');
 background-size: 100%;
 background-repeat: no-repeat;
 min-height: 800px;
-}
-
+}/*back-ground image min-height is 800 px*/
+/*margin top was set up as -130px so the container with about me information can be shown on the background picture*/
 #about
 {
   margin-top: -130px;
 }
+
 
 #about .fa
 {
@@ -69,14 +75,23 @@ min-height: 800px;
   clear: both;
   border-top: 2px dotted honeydew;
 }
-
+/*this id was set up to make all the picture on portfolio the same size*/
 #myportfolio
 {
   height: 350px;
   width: 500px;
 }
-
-.card-footer
-{
-  color: white;
+/*If the browser window is 768px or smaller, the background color will be pink*/
+@media screen and (max-width: 768px) {
+  body {
+    background-color: pink;
+  }
+  .wrapper {
+    width: 600px;
+  }
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} /*If the browser window is 600px or smaller, the background color will be lightblue*/
