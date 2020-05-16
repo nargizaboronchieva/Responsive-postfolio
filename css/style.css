@@ -1,16 +1,25 @@
 body {
   background-color: #fff;
 }
+
+h3 {
+  font-family: 'Sacramento', cursive;
+  font-size:50px;
+}
 #Header a:hover
 {
   color: aquamarine;
 }
-
+#Header a {
+  columns: 8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
 #bg-img {
 background-image: url('../image/back.jpg');
 background-size: 100%;
 background-repeat: no-repeat;
-min-height: 1100px;
+min-height: 800px;
 }
 
 #about
@@ -50,4 +59,24 @@ min-height: 1100px;
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between
+}
+
+#footer {
+  background-color: #101010;
+  color: honeydew;
+  height: 100px;
+  text-align: center;
+  clear: both;
+  border-top: 2px dotted honeydew;
+}
+
+#myportfolio
+{
+  height: 350px;
+  width: 500px;
+}
+
+.card-footer
+{
+  color: white;
 }
