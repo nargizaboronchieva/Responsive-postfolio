@@ -1,5 +1,5 @@
 body {
-  background-color: #909090;
+  background-color: #fff;
 }
 #Header a:hover
 {
@@ -10,16 +10,44 @@ body {
 background-image: url('../image/back.jpg');
 background-size: 100%;
 background-repeat: no-repeat;
-min-height: 500px;
+min-height: 1100px;
 }
 
 #about
 {
-  margin-top: -200px;
+  margin-top: -130px;
 }
 
 #about .fa
 {
   color:#FFF
 
+}
+
+#about span
+{
+  padding:10px 10px 10px 10px 10px;
+}
+
+#about hr
+{
+  border-width: 4px;
+  margin-top: 10px;
+}
+
+#contact
+{
+  margin-top: 50px;
+}
+
+#projects 
+{
+ margin-top: 200px;
+
+}
+.wrapper{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between
 }
