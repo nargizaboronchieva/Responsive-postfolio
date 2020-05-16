@@ -1,6 +1,6 @@
 Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
-My website has responsive design, it means that this website render well on a variety of devices and window or screen sizes. 
+My website has responsive design, it means that the website render well on a variety of devices and window or screen sizes. 
 
 
 1. Using Bootstrap CSS Framework i have created a mobile responsive portfolio. 
@@ -28,4 +28,6 @@ My website has responsive design, it means that this website render well on a va
 * All links are working.
 
 Here is screenshots from each page: 
-![Image of first page](https://octodex.github.com/images/yaktocat.png)
+[Image of first page](https://nargizaboronchieva.github.io/Responsive-postfolio/index.html)
+[Image of portfolio page](https://nargizaboronchieva.github.io/Responsive-postfolio/potfolio.html)
+[Image of Contact Page](https://nargizaboronchieva.github.io/Responsive-postfolio/contact.html)
